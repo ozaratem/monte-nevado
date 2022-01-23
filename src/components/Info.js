@@ -8,7 +8,7 @@ function Info() {
     <div>
       <p>
         Monte Nevado es un hotel en la cima del
-        <span className="green">Monte Targon</span>, fundado en el año 1680. A lo
+        <span className="green"> Monte Targon</span>, fundado en el año 1680. A lo
         largo de los años se ha convertido en el sitio predilecto de aquellos
         que buscan ascender.
       </p>
@@ -16,7 +16,7 @@ function Info() {
     <div>
       <p>
         Denominado como una de
-        <span className="green">Las nuevas maravillas</span> Monte Nevado
+        <span className="green"> Las nuevas maravillas</span> Monte Nevado
         transmite la sensacion de conexion con el universo y con los
         diferentes <span className="green">aspectos</span>.
       </p>
