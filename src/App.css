@@ -1,3 +1,5 @@
+/*@import "reset.css";*/
+
 /* BTNS */
 .button {
   height: 30px;
@@ -8,10 +10,12 @@
   color: var(--clr-green);
   background-color: transparent;
 }
+
 /* SPAN */
 .green {
   color: var(--clr-green);
 }
+
 /* INPUTS */
 .input {
   border: none;
@@ -21,6 +25,7 @@
   display: inline-block;
   margin: 0 auto;
 }
+
 .round {
   width: 10px;
   height: 10px;
@@ -41,12 +46,15 @@
   align-items: center;
   height: 50px;
 }
+
 #navbar .mcr {
   display: flex;
 }
+
 #navbar .mcr p {
   padding-left: 20px;
 }
+
 /* Banner */
 #banner {
   height: 1125px;
@@ -64,15 +72,65 @@
   align-items: center;
   flex-direction: column;
 }
+
 #banner .title h1 {
   padding: 30px;
   font-size: 150px;
   font-weight: 700;
 }
+
 #banner .title p {
   padding-top: 60px;
 }
+
 #banner .title i {
   font-size: 40px;
   padding-top: 100px;
+}
+
+/*Info*/
+#info {
+  height: 500px;
+  background-color: var(--clr-blk);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#info h2 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+#info p {
+  max-width: 750px;
+  padding: 30px;
+  text-align: center;
+}
+
+/*Banner2*/
+#banner_2 {
+  height: 500px;
+  width: 100%;
+  background-image: url(./assets/downloads-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#banner_2 div {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner_2 h2 {
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 400;
+}
+#banner_2 .button {
+  height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
 }
