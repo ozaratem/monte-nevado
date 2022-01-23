@@ -161,3 +161,52 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+/*Reservation*/
+#reservation {
+  height: 800px;
+  background-color: var(--clr-blk);
+}
+#reservation .h3 {
+  display: flex;
+  justify-content: center;
+}
+#reservation h3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#reservation p {
+  margin: 0 10px;
+}
+#reservation .reservation-input {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+#reservation .reservation-input input {
+  margin: 10px 0;
+  margin-left: 10px;
+  width: 95%;
+}
+#reservation .reservation-checkbox {
+  display: flex;
+  flex-direction: column;
+}
+#reservation .reservation-checkbox {
+  margin: 10px 0;
+}
+#reservation .terms-input {
+  margin: 20px 0;
+}
+#reservation .reservation-button {
+  display: flex;
+  justify-content: center;
+}
+#reservation .button {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 400;
+}

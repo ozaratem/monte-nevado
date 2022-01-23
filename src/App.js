@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import Info from './components/Info';
 import Banner2 from './components/Banner2';
 import Contact from './components/Contact';
+import Reservation from './components/Reservation';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Info/>
       <Banner2/>
       <Contact/>
+      <Reservation/>
     </div>
   );
 }
